@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.2.0"
+  version: "1.3.0"
 
 package:
   name: pybinny
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pybinny/pybinny-${{ version }}.tar.gz
-  sha256: 21937931b846b4d49a37037a8e823cfb880c234ac2ad679cc2b3c5d53a5ff470
+  sha256: 80febabff7b82790cd7c22fbecb3dc34e3aac8164a30f1f99200b664da1e0593
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - cmasher
     - matplotlib-base
     - derivkit
-    
+
 
 tests:
   - python:
