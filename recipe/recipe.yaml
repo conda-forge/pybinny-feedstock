@@ -27,7 +27,7 @@ requirements:
     - pyyaml
     - scipy
     - cmasher
-    - matplotlib
+    - matplotlib-base
     - derivkit
     
 
