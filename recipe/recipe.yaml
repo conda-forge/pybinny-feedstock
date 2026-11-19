@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.3.0"
+  version: "2.0.0"
 
 package:
   name: pybinny
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/p/pybinny/pybinny-${{ version }}.tar.gz
-  sha256: 80febabff7b82790cd7c22fbecb3dc34e3aac8164a30f1f99200b664da1e0593
+  sha256: b4ada45d0e76edd1dd89bb8c7b84309f5170ac9340b76b673c587bb16bd696fc
 
 build:
   number: 0
